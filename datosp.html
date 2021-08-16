@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--letra Titulo-->
+    <link rel = "preconnect" href = "https://fonts.googleapis.com">
+    <link rel = "preconnect" href = "https://fonts.gstatic.com" crossorigin>
+    <link href = "https: //fonts.googleapis.com/css2? family = Assistant: wght @ 300 & family = Libre + Baskerville & display = swap "rel =" stylesheet ">
+    <link rel="stylesheet" href="home.css">
+    <title>AutoLife</title>
+</head>
+</head>
+<body>
+    <div>
+        <p class="titulo">AutoLife</p> 
+        <p class="subtitulo">Si deseas vender y mostrar tu auto en nuestra pagina Online, completa el siguiente
+            formulario.
+        </p>
+    </div>
+    <div>
+        <ul class="barraMenu">
+            <li class="linkContainer">
+                <a class="link" href="index.html">INICIO</a>
+            </li>
+            <li class="linkContainer">
+                <a class="link"  href="autos.html">AUTOS A LA VENTA </a>
+            </li>
+            <li class="linkContainer">
+              <a class="link"  href="datosp.html"> MI AUTO A LA VENTA</a>
+            </li>
+        </ul>
+    </div>
+    <div>
+        <form class="formulario">
+            <label for="fname">Nombre y Apellido:</label>
+            <input class="textoForm"type="text" id="fname" name="fname">
+            <label for="ldoc">Documento:</label>
+            <input class="textoForm" type="text" id="ldoc" name="ldoc">
+            <label for="fubi">Provincia, localidad:</label>
+            <input class="textoForm" type="text" id="fubi" name="fubi">
+            <label for="lauto">Auto, Modelo, Marca, Kilometros:</label>
+            <input class="textoForm" type="text" id="fmarca" name="lauto">
+            <label for="lnota">Agregar Nota:</label>
+            <input class="textoForm" type="text" id="fnota" name="nota">
+            <label for="lpatente">Patente:</label>
+            <input class="textoForm" type="text" id="fpatente" name="patente">
+
+        </form>
+    </div>
+    <div> 
+        <button class="button" onclick="addCar()">
+            Enviar informacion
+        </button>
+    <div>
+        <div class="infoAutoForm" id="infoAuto">
+            Tus Autos: 
+        </div>
+
+        <footer>
+            <div class="grid">
+                <ul class="info">
+                    <li>
+                        <h2>Visitanos</h2> 
+                        <p>Si deseas visitarnos para ver algunos de los autos a la venta contactate al 011-556-987 de 
+                            Lunes a Viernes de 9 a 18hs. Mail de contcato autolife@gmail.com
+                        </p>                        
+                    </li>
+            </div>
+        </footer>
+
+
+    </body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="home.js"></script>
+</html>
